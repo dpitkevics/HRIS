@@ -1,0 +1,23 @@
+CACHE MANIFEST
+#ver:2017-10-8 22:21:40
+#plugin:4.8.4
+
+CACHE:
+/static/media/glyphicons-halflings-regular.f4769f9b.eot
+/static/media/glyphicons-halflings-regular.e18bbf61.ttf
+/static/media/glyphicons-halflings-regular.fa277232.woff
+/static/media/glyphicons-halflings-regular.448c34a5.woff2
+/client.007b36e5.js
+/vendor.1a5bda4a.js
+/manifest.b0680347.js
+/styles.f3975c17.css
+/
+/favicon.ico
+/user.png
+/user.svg
+
+NETWORK:
+*
+
+FALLBACK:
+/ /
