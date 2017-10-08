@@ -6,5 +6,8 @@
   "private": true,
   "scripts": {
     "postinstall": "npm install express"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
   }
 }
