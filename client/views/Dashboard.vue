@@ -50,11 +50,11 @@
 
               <div class="row">
                 <div class="col-md-6">
-                  Departaments
+                  Amats
                 </div>
 
                 <div class="col-md-6">
-                  <strong>Mārketings</strong>
+                  <strong>Personāla speciālists</strong>
                 </div>
               </div>
             </div>

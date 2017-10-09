@@ -9,6 +9,7 @@ import PersonalGoals from '../views/PersonalGoals.vue'
 import TeamGoals from '../views/TeamGoals.vue'
 import PersonalResults from '../views/PersonalResults.vue'
 import EmployeeResults from '../views/EmployeeResults.vue'
+import AssessEmployee from '../views/AssessEmployee.vue'
 
 Vue.use(Router)
 
@@ -46,6 +47,10 @@ export default new Router({
     {
       path: '/results/employees',
       component: EmployeeResults
+    },
+    {
+      path: '/results/assess',
+      component: AssessEmployee
     }
   ]
 })

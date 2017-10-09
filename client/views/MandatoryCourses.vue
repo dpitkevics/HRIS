@@ -24,13 +24,13 @@
         courses: [
           {
             title: 'Līderības prasmju pastiprināšana',
-            place: '"Līderu Nams", Puņu iela 1, Rīga',
+            place: '"Līderu Nams", Puķu iela 1, Rīga',
             teacher: 'J. Bērziņš',
             date: '01/11/2017, 09:00 - 17:00'
           },
           {
             title: 'Stratēģiskā plānošana un vadība',
-            place: 'Mācību cehs "123", Puņu iela 2, Rīga',
+            place: 'Mācību centrs "123", Puķu iela 2, Rīga',
             teacher: 'J. Zariņš',
             date: '02/12/2017, 09:00 - 16:00'
           }

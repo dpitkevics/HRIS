@@ -106,15 +106,16 @@
     <div class="row">
       <div class="col-md-12">
         <div class="row" v-for="(row, i) in matrix">
-          <div class="col-md-4 matrix-col" v-for="(col, j) in row">
+          <div class="col-md-1" style="width: 12.5%;"></div>
+          <div class="col-md-3 matrix-col" v-for="(col, j) in row">
             <div class="matrix-col-inner" :style="'background-color:' + col.background + ';color:' + col.color" @click="dialog = true">
               <h4>
                 {{ col.title }}
               </h4>
 
-              <p style="margin-top: 50px;">
+              <small style="margin-top: 50px; display: block">
                 {{ col.description }}
-              </p>
+              </small>
             </div>
           </div>
         </div>
@@ -125,9 +126,9 @@
       <v-card>
         <v-card-title class="headline">Darbinieki</v-card-title>
         <v-card-text>
-          Jānis Bērziņš<br />
-          Ēriks Zariņš<br />
-          Pēteris Rudzītis
+          Jānis Bērziņš, IT speciālists<br />
+          Ēriks Zariņš, Mārketinga vadītājs<br />
+          Pēteris Rudzītis, Lietvedis
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -154,19 +155,19 @@
           [
             {
               'title': 'Augsts profesionālis',
-              'description': 'Lorem ipsum',
+              'description': 'Pastāvīgi sasniedz izcilus rezultātus. Zina pašreizējo amatu ļoti labi. Ne vienmēr spēj pielāgoties jaunām situācijām.',
               'background': '#564040',
               'color': '#ffffff',
             },
             {
               'title': 'Augsts profesionālis plus',
-              'description': 'Lorem ipsum',
+              'description': 'Pastāvīgi sasniedz izcilus rezultātus un augsta snieguma vērtējumus. Ir labs darbinieks vienā vai vairākās jomās. Spēj adaptēties jaunām situācijām un apgūt jaunas lietas.',
               'background': '#FFDC9C',
               'color': '#000000',
             },
             {
               'title': 'Pastāvīga zvaigzne',
-              'description': 'Lorem ipsum',
+              'description': 'Parasti uzņēmuma nelielā skaitā, bet ļoti pieprasīti. Strādā labi, mācās ātri. Ir spēja uzņemties izaicinošus darba pienākumus jaunās jomās.',
               'background': '#564040',
               'color': '#ffffff',
             },
@@ -174,19 +175,19 @@
           [
             {
               'title': 'Pamatīgs profesionālis',
-              'description': 'Lorem ipsum',
+              'description': 'Pastāvīgi sasniedz un reizumis pārsniedz sagaidīto. Zina savu pašreizējo darbu labi. Nespēj pielāgoties jaunām situācijām.',
               'background': '#564040',
               'color': '#ffffff',
             },
             {
               'title': 'Labākais izpildītājs',
-              'description': 'Lorem ipsum',
+              'description': 'Zina savu darbu labi un pilnveido savas prasmes atbilstoši. Var piemēroties jaunām situācijām un izaicinājumiem. Var pārvietoties karjerā vertikāli vai horizontāli.',
               'background': '#FFDC9C',
               'color': '#000000',
             },
             {
               'title': 'Nākotnes zvaigzne',
-              'description': 'Lorem ipsum',
+              'description': 'Pastāvīgi sasniedz un dažreiz pārsniedz sagaidīto un spēj uzņemties jaunus izaicinājumus pastāvīgi.',
               'background': '#FFDC9C',
               'color': '#000000',
             },
@@ -194,19 +195,19 @@
           [
             {
               'title': 'Zema snieguma darbinieks',
-              'description': 'Lorem ipsum',
+              'description': 'Nesasniedz rezultātus kā sagaidīts. Nespēj efektīvi pielāgoties jaunām situācijām.',
               'background': '#FF5F5B',
               'color': '#ffffff',
             },
             {
               'title': 'Svārstīgs sniegums',
-              'description': 'Lorem ipsum',
+              'description': 'Darba rezultāti ir svārstīgi. Var nebūt pareizajā amatā vai funkcijā.',
               'background': '#FF5F5B',
               'color': '#ffffff',
             },
             {
               'title': 'Neslīpēts dimants',
-              'description': 'Lorem ipsum',
+              'description': 'Ir potenciāls sasniegt labus rezultātus un darīt lielas lietas uzņēmuma labā. Viņiem vēl nav bijusi iespēja sevi pierādīt vai ir pārāk neilgs laiks organizācijā.',
               'background': '#FFDC9C',
               'color': '#000000',
             },
@@ -221,7 +222,7 @@
 
 <style lang="scss">
   .matrix-col {
-    height: 300px;
+    height: 150px;
 
     .matrix-col-inner {
       height: 100%;
