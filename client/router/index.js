@@ -7,6 +7,8 @@ import MandatoryCourses from '../views/MandatoryCourses.vue'
 import CompanyGoals from '../views/CompanyGoals.vue'
 import PersonalGoals from '../views/PersonalGoals.vue'
 import TeamGoals from '../views/TeamGoals.vue'
+import PersonalResults from '../views/PersonalResults.vue'
+import EmployeeResults from '../views/EmployeeResults.vue'
 
 Vue.use(Router)
 
@@ -36,6 +38,14 @@ export default new Router({
     {
       path: '/goals/team',
       component: TeamGoals
+    },
+    {
+      path: '/results/personal',
+      component: PersonalResults
+    },
+    {
+      path: '/results/employees',
+      component: EmployeeResults
     }
   ]
 })

@@ -31,7 +31,7 @@
             </v-list-tile-content>
           </v-list-tile>
 
-          <v-list-tile @click="">
+          <v-list-tile to="/results/personal">
             <v-list-tile-action>
               <v-icon>assessment</v-icon>
             </v-list-tile-action>
